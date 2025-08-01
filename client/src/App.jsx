@@ -113,7 +113,7 @@ function AppContent() {
     }
   };
 
-  //Adicionar Tarefa
+  //Adicionar Task
   const addTask = async (task) => {
     const url = `${apiUrl}/api/tarefas`;
     logApiRequest('POST', url, task);
